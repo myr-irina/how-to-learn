@@ -251,7 +251,7 @@ section.feynman {
 .feynman_link {
   line-height: 51px;
   font-size: 36px;
-  color: #2f80ed; 
+  color: #2f80ed;
   font-weight: normal;
   height: 50%;
   margin-right: 48px;
@@ -396,7 +396,6 @@ section.kaufman .section-title {
   font-weight: normal;
   margin-bottom: 16px;
   list-style: none;
-  line-height: 1;
 }
 
 .footer__column-links > *:not(:last-child) {
