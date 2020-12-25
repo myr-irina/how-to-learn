@@ -46,13 +46,14 @@
 
 .header__title {
   z-index: 5;
-  position: absolute;
-  left: 64px;
+  /* position: absolute;
+  left: 64px; */
+  margin-left: 64px;
   width: 730px;
   line-height: 96px;
   font-size: 102px;
   font-weight: bold;
-  margin: 0;
+  margin: 0 0 0 64px;
 }
 
 .header__subtitle {
@@ -145,7 +146,7 @@
   padding: 100px 0;
 }
 
-.digits__section-title {
+.section-title {
   width: 60%;
   line-height: 1.15;
   font-size: 60px;
@@ -155,7 +156,7 @@
   margin: 0;
 }
 
-.digits__section-subtitle {
+.section-subtitle {
   width: 60%;
   line-height: 34px;
   font-size: 24px;
@@ -240,7 +241,6 @@
 .kaufman {
   padding: 90px 0px;
   position: relative;
-  height: 788px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -313,12 +313,13 @@
 
 .footer {
   min-height: 350px;
-  background-color: #000000;
+  background-color: #1f1f1f;
   padding: 60px 0px 40px 0px;
   display: flex;
   justify-content: center;
   color: white;
   font-size: 18px;
+  box-sizing: border-box;
 }
 
 .footer__columns {
@@ -336,9 +337,10 @@
   justify-content: space-between;
 }
 
-.logo__place_footer {
+.logo_place_footer {
   margin:0;
   padding: 0;
+  height: 35px;
 }
 
 .footer__author {
