@@ -2,5 +2,8 @@
   display: flex;
   width: 920px;
   flex-wrap: wrap;
-  gap: 60px 100px;
+  /* gap: 60px 100px; */
+  margin-top: 60px;
+  grid-row-gap: 60px;
+  grid-column-gap: 100px;
 }
